@@ -122,6 +122,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/vijay-saravanan/Advanced-Human-Life-Detection.git
 cd Advanced-Human-Life-Detection
+pip install -r requirements.txt
 ```
 
 ---

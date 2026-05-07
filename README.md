@@ -107,10 +107,10 @@ Advanced-Human-Life-Detection/
 ## Prototype Images
 
 ### System Prototype
-![System Prototype](images/fullbox.jpeg)
+![System Prototype](assets/prototype.jpg)
 
 ### Block Diagram
-![Block Diagram](images/blockdiagram.png)
+![Block Diagram](assets/blockdiagram.jpg)
 
 ---
 

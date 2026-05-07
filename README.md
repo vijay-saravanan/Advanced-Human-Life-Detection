@@ -96,6 +96,7 @@ Advanced-Human-Life-Detection/
 ├── sensors/
 ├── ui/
 ├── utils/
+├── assets/
 ├── main.py
 ├── requirements.txt
 ├── project-report.pdf

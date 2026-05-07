@@ -1,53 +1,166 @@
-# Advanced-Human-Life-Detection
-A portable, real-time rescue tool that fuses mmWave radar, microphone, and accelerometer signals using advanced digital signal processing (FFT, DWT) and machine learning to detect survivors under debris.
-![Uploading fullbox.jpeg…]()
+# Advanced Human Life Detection System
+
+An intelligent embedded system designed for detecting human presence in disaster environments using sensor fusion, signal processing, and AI-assisted classification.
+
+This project combines multiple sensing technologies including Ground Penetrating Radar (GPR), Ultra-Wideband (UWB), vibration detection, thermal sensing concepts, and machine learning techniques to improve rescue operations during earthquakes, landslides, and collapsed structure incidents.
+
+---
+
+## Project Overview
+
+The Advanced Human Life Detection System is designed to assist rescue teams in locating trapped or hidden human survivors in difficult environments where direct visual detection is impossible.
+
+The system integrates multiple sensors with embedded processing units to analyze signals and identify possible human presence in real time.
+
+---
 
 ## Features
-- **Multi-sensor Fusion:** Integrates radar, audio, and vibration data.
-- **Signal Processing:** DWT/FFT extraction for robust feature analysis.
-- **Machine Learning:** Automatic detection using Random Forest/Custom ML model.
-- **Real-time Feedback:** LCD, LED, and buzzer UI for instant alerts.
-- **Data Logging:** Stores all measurements and predictions for research.
+
+- Human presence detection using multi-sensor fusion
+- Embedded signal processing system
+- AI-assisted classification concept
+- Real-time monitoring and alert system
+- Modular and scalable architecture
+- Disaster rescue assistance application
+- Low-cost prototype approach
+
+---
+
+## System Architecture
+
+The system consists of:
+
+1. Sensor Layer
+   - Vibration Sensors
+   - UWB / Radar Concepts
+   - Thermal Detection Concepts
+   - Acoustic Signal Detection
+
+2. Processing Layer
+   - Raspberry Pi / Embedded Controller
+   - Signal Filtering
+   - Data Processing
+
+3. AI Classification Layer
+   - Human pattern recognition
+   - Signal analysis
+
+4. Output Layer
+   - LCD Display
+   - Alert System
+   - Monitoring Interface
+
+---
+
+## Hardware Components
+
+- Raspberry Pi
+- Arduino
+- Vibration Sensor
+- Acoustic Sensor
+- LEDs and Buzzer
+- LCD Display Module
+- Power Supply Unit
+- Communication Modules
+
+---
+
+## Software & Technologies Used
+
+### Programming
+- Python
+- Embedded C
+
+### Tools & Platforms
+- Raspberry Pi OS
+- Arduino IDE
+- Git & GitHub
+
+### Concepts
+- Signal Processing
+- Sensor Fusion
+- IoT Systems
+- Embedded Systems
+- AI/ML Fundamentals
+
+---
+
+## Project Structure
+
+```bash
+Advanced-Human-Life-Detection/
+│
+├── images/
+├── hardware/
+├── software/
+├── docs/
+└── README.md
+```
+
+---
+
+## Prototype Images
+
+### System Prototype
+![System Prototype](images/fullbox.jpeg)
+
+### Block Diagram
+![Block Diagram](images/blockdiagram.png)
+
+---
 
 ## Installation
-1. Clone this repository:
-    ```
-    git clone https://github.com/yourusername/human-life-detection.git
-    cd human-life-detection
-    ```
-2. Install dependencies:
-    ```
-    pip install -r requirements.txt
-    ```
-3. Connect Raspberry Pi and sensors (see `/config/config.py`).
 
-## Usage
-1. Prepare and connect your hardware.
-2. Run:
-    ```
-    python main.py
-    ```
-3. View LCD, LED, and buzzer outputs for detection status.
-4. Inspect and analyze sensor data in `ml/sensor_data.csv`.
+Clone the repository:
 
-## File Structure
+```bash
+git clone https://github.com/vijay-saravanan/Advanced-Human-Life-Detection.git
+cd Advanced-Human-Life-Detection
+```
 
-| File/Folder         | Description                                  |
-|---------------------|----------------------------------------------|
-| `main.py`           | Main execution, ML prediction, plotting, UI  |
-| `sensors/`          | Sensor interface classes for radar, mic, acc |
-| `processing/`       | Signal processing (FFT, DWT), feature extract|
-| `ui/`               | Hardware UI indicators (LCD, LED, buzzer)    |
-| `config/`           | Hardware pin/address config                  |
-| `utils/`            | Data saving utilities                        |
-| `ml/model.pkl`      | Trained ML model (RandomForest, etc.)        |
-| `ml/sensor_data.csv`| Collected sensor data                        |
+---
 
-## Contributing
-Open issues or pull requests to improve hardware integration, add new signal processing features, or adapt model training.
+## Results
+
+- Successfully demonstrated sensor-based detection concepts
+- Real-time monitoring functionality implemented
+- Embedded processing workflow tested
+- Multi-sensor integration architecture developed
+
+---
+
+## Future Improvements
+
+- Thermal camera integration
+- GPS rescue tracking
+- LoRa communication support
+- Cloud monitoring dashboard
+- Deep learning-based classification
+- Improved radar-based detection
+
+---
+
+## Applications
+
+- Disaster rescue operations
+- Earthquake survivor detection
+- Industrial safety systems
+- Smart surveillance systems
+- Military and emergency response applications
+
+---
+
+## Author
+
+### Vijayaragavan Saravanan
+
+Embedded Systems | IoT | Sensor Systems | AI-Assisted Detection Technologies
+
+- GitHub: https://github.com/vijay-saravanan
+- Portfolio: https://vijay-saravanan.github.io/
+
+---
 
 ## License
-MIT
 
-## Contact
-For questions, open an issue or email `vijaysaravanan1609@gmail.com`.
+This project is for educational and research purposes.

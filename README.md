@@ -90,10 +90,15 @@ The system consists of:
 ```bash
 Advanced-Human-Life-Detection/
 │
-├── images/
-├── hardware/
-├── software/
-├── docs/
+├── config/
+├── ml/
+├── processing/
+├── sensors/
+├── ui/
+├── utils/
+├── main.py
+├── requirements.txt
+├── project-report.pdf
 └── README.md
 ```
 
